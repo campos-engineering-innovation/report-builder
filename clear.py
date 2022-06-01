@@ -22,6 +22,7 @@ def main():
 	except EnvironmentError:
 		print("Missing")
 		print("No configuration file found, please create a \"clear_config.json\" file, specify the folder where the report builder is stored and try again")
+		os.system("pause")
 		return
 
 	for folder in config["FOLDERS"]:
@@ -32,6 +33,7 @@ def main():
 	if not allowed or fileHash != currentHash:
 		print(f"Working Directory Not Matched - \"{currentFolder}\"")
 		print(f"Can't run clean up here, unconfigured directory")
+		os.system("pause")
 		return
 
 	print(f"Working Directory Match - {currentFolder}")
