@@ -50,8 +50,11 @@ def main():
 			print(f"Removing folder: {os.path.basename(dirToRemove)}")
 			shutil.rmtree(dirToRemove)
 	
+	os.system("pause")
+
 	if not deletedDir:
 		print("No files to delete!")
+		os.system("pause")
 
 if __name__ == '__main__':
 	main()

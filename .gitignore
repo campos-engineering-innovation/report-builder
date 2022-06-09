@@ -1,1 +1,4 @@
 *.tmp
+*.spec
+/build
+/dist
