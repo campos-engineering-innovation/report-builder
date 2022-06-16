@@ -1,0 +1,199 @@
+In Report Builder User Input
+C20 = C10 - FIXED
+
+Cell C25 and C27
+Add dropdown selector with all PEs and CPs - FIXED
+
+AHU Equipment
+TSP & ESP field need to go out to 2 decimal places (ex. 2.50) - FIXED
+Design Duct Pressure Setpoint - DH do we need this? - No we do not need this - FIXED
+See Mismatch for VAV's in RB - FIXED
+
+Need for 8.0
+Seperate ATU's into supply and return or exhaust and outside air. - IGNORE FOR NOW
+Include a drop down for 2 or 3 decimal places for VP AND pitot tube or airfoil instrument for the round and standard pitot tube traverse sheets - IGNORE FOR NOW
+
+RTU Equipment
+TSP & ESP field need to go out to 2 decimal places (ex. 2.50) - FIXED
+
+FCU Equipment
+DH - do we need return fan option for fan curve? - No we do not need this - FIXED
+FCU-Outlet CFM Check did not happen after 1st FCU.
+
+AC's
+DH - Do we need return fan curves in the AC's? - No we do not need this - FIXED
+AC-Outlet CFM Check did not happen after 1st AC.
+
+CRAC's
+DH - Do we need return fan curves in the AC's? - No we do not need this for CRACs - FIXED
+CRAC-Outlet CFM Check did not happen after 1st CRAC. - FIXED
+
+CRAC's
+EF-Intlet CFM Check did not happen after 1st EF. - FIXED
+
+UH's
+Type = Note: (HHW, Elec., & Gas Data on Summaries) - FIXED
+
+Chiller's
+Water fields for Condenser need to go out to 1 decimal places (ex. 42.5) - FIXED
+DH - Do we want to add a field in RB for Tons? Yes, we need this - FIXED
+
+Pump's (CHWP, CWP, HWP) 
+Should have a drop down menu for Type of pump (DH and RC to give data for it) - End Suction, Split Case, In-line - FIXED
+
+CT's
+Should have a drop down menu for Type of CT (Cross-Flow or Counter-Flow) - FIXED
+DH - We have to add Water data back ifgfgfn per NEBB 2019 - okay
+DH - Lets also talk about removing LAT from the sheet. - okay
+GPM Field needs to rounded to a whole number, no decimal place. - FIXED
+
+Boiler's
+DH - Should have drop down menu for Type (Steam, HHW, Propane, Dual Fuel)? Type is not even required per NEBB, but if we want to stay consistent throughout report then yes. - FIXED  
+Type will be confusing bc are you referencing fuel input type?  water-tube vs fire-tube?  horo/vert?  condensing vc non-condensing? Modular vs nonmodular? - CHANGED TO FUEL TYPE
+
+ALL Summaries
+The order of equipment is no longer correct. - FIXED
+
+HHW Summary
+ATU's are referencing the wrong CFM value - FIXED
+
+HP Summary
+DH - Do we need Total MBH and Ses. MBH? No, only need one.  Which one is more often named in a submittal to make it easier on the guys?
+
+Elec. Heat
+DH - Should there be a drop down menu for stages? Yes, (1, 2, 3, SCR) would be my suggestions - FIXED
+
+\\\\\\\\\\\\\
+
+RB After the programing was executed
+
+\\List for Professional Engineer - FIXED
+Wesley McVey, PE
+Robert Carroll, PE
+John R. Barnett, PE
+Marcus Rodriguez, PE
+Clifford Radatovich, PE
+Zachary Standerfer, PE
+Xavier Figueroa, PE
+
+\\List of NEBB CP - FIXED
+Wesley McVey, PE
+Robert Carroll, PE
+John R. Barnett, PE
+Marcus Rodriguez, PE
+Clifford Radatovich, PE
+Zachary Standerfer, PE
+Bradley D. Herren, EIT
+David Crafton, EIT
+
+\\RB Concerns
+1. RTU and associated ATU data sheets were not created in thier respective folder. - FIXED
+	
+2. All FCU's were were not created in thier respective folder. "Folder Exists" - FIXED AFTER FIXING RTU?
+\\Start of Report - FIXED
+3. TPFYLER when "diagnostic" is selected needs to change the report title from "Testing, Adjusting, and Balancing Report" to "Diagnostic Testing, Adjusting, and Balancing Report". This should ONLY happen when diagnsotic type report is selected.
+
+\\AHU - Area Served fix: uncomment all area served lines
+4. Area Served for AHUMT was blank. - FIXED
+5. DH - We need to revise the DP Setpoint fields. - FIXED
+6. AHU Traverse sheets are missing Area Served. - FIXED
+7. Can we reference the CFM Design values for the Traveres to the airflows indicated in RB (Like the Supply, Return, Outside Air)? - FIXED
+8. On all ATU sheets, the Area Served is no longer being reference to RB. (In the outlet section, not at the top of the sheet) - FIXED
+9. On the parallel FPB sheet Conditional Formating and locking of cells in the "Fan performance data" section is not set up properly - NO FIX NEEDED
+10. DH - Are we removing the Final Settings section in all ATU data sheets? Yes, FIXED.  
+11. All Outlet and Inlet sheets dont indicate area served from RB. - FIXED
+12. The location field on outlet/inlet sheets, even though not there on data sheets is still populating - FIXED
+
+\\RTU
+13. See above (nothing to review) - FIXED
+
+\\FCU
+14. See above #2.
+15. FCU main and Traverse sheets are missing Area Served. - FIXED
+16. Can we reference the CFM Design values for the Traveres to the airflows indicated in RB (Like the Supply, Return, Outside Air)? - FIXED
+17. All Outlet and Inlet sheets dont indicate area served from RB. - FIXED
+
+\\AC
+18. AC main and Traverse sheets are missing Area Served. - FIXED
+19. Can we reference the CFM Design values for the Traveres to the airflows indicated in RB (Like the Supply, Return, Outside Air)? - FIXED
+20. The location field on outlet/inlet sheets, even though not there on data sheets is still populating - FIXED
+
+\\CRAC
+21. CRAC main and Traverse sheets are missing Area Served. - FIXED
+22. Can we reference the CFM Design values for the Traveres to the airflows indicated in RB (Like the Supply, Return, Outside Air)? - FIXED
+23. The location field on outlet/inlet sheets, even though not there on data sheets is still populating - FIXED
+
+\\ERV to be completed in next version of RB
+
+\\EF
+24. EF main and Traverse sheets are missing Area Served. - FIXED
+25. The inlets did not populate on the MT sheet, only when the inlets are more than the spots indicated on MT do we need a seperate inlet sheet. - FIXED
+26. Can we reference the CFM Design values for the Traveres to the airflows indicated in RB (Like the Exhaust)? - FIXED
+27. The location field on outlet/inlet sheets, even though not there on data sheets is still populating - FIXED
+28. The Fan Curve Sheet is still indicating "Return Fan Curve" - FIXED
+29. The tabs at the bottom of the sheet still indicate RTN even though they are exhaust. - FIXED
+30. When a SF is selected instead of EF, Cell 33H on MT needs to change to Outlets not Inlets. - FIXED
+31. The Outlets did not populate on the MT sheet, only when the outlets are more than the spots indicated on MT do we need a seperate outlet sheet. - FIXED
+
+\\UH
+32. UH main sheet are missing Area Served. - FIXED
+33. The main header should only state Unit Heater Test Report ONLY no matter the type (Cell 5M) - FIXED
+
+\\Chiller
+34. ACCHCT is great!
+35. CHMT is great!
+
+\\Pump
+36. PUMPMT is great!
+
+\\CT
+37. CTMT in RB only needs Design Water flow field, no longer air temperatures. Once this is complete we need to reference only that to the CTMT. - FIXED
+38. On the CTMT when power transmission type is selected, and it is Direct Drive, i need all those cells greyed out (Get with RC or DH on this) - FIXED
+
+\\Boiler
+39. DH - we need to choose something to rename Cell J18. Renamed "Combustion Efficiency" - FIXED
+
+\\CHW Summary
+40. CHWSUM is great!
+
+\\HHW Summary
+41. HHWSUM is great!
+
+\\DX Summary
+42. DXSUM is great!
+
+\\HP Summary
+43. Conditional Formating needs to be Fixed, all deisgn airflows are inputted; however, the cell is still yellow. - FIXED
+
+\\EH Summary
+44. The order of equipment change also made to HHW needs to happen to the EH Summary. - FIXED
+
+\\Gas Summary
+45. GASSUM is great!
+
+\\End of Report
+46. All the Flyer sheets are missing in End of Report. - FIXED
+
+
+6/7/22 
+DH Changed:
+DP Setpoint fields on MAINMT Sheet
+deleted the dp setpoint on SAV, RAV, and EAV sheets.  (was already deleted on ATUMT sheet)
+Changed cell J18 in BoilerMT to Combustion Efficiency
+changed VP cells to two decimal places in lieu of 3 and added notes outside of print area on STDPTORAVMT and RNDTRAVMT
+Changed font color to black on X24
+
+6/16/22
+\\Start of Report
+Diagcertflyer Merge Title Cell - FIXED
+
+\\Table of Contents
+TOC didnt make 2 sheets and ran out of input cells - FIXED AND IMPROVED
+
+\\Fans
+EF Data sheet indicates OUTLETS above the "Inlet/Outlet" section of the data sheet - FIXED
+
+\\HP Summary
+43. Conditional Formating needs to be Fixed, all deisgn airflows are inputted; however, the cell is still yellow.
+
+
