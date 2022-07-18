@@ -1,6 +1,8 @@
 Report Builder Master Copy and File Structure
-Latest Version: 7.12.5
-  
+Latest Version: 7.12.6
+
+Note: There may be blank rows after deleting other rows, this should not be a problem  
+
 The .gitkeep files are there to ensure the folder structure is kept intact, as blank folders do not get tracked correctly.  
 They should not affect the function of the program.  
 
