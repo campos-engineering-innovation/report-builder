@@ -1,5 +1,5 @@
 Report Builder Master Copy and File Structure
-Latest Version: 7.12.6
+Latest Version: 7.12.8
 
 Note: There may be blank rows after deleting other rows, this should not be a problem  
 
