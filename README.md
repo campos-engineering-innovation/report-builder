@@ -1,9 +1,9 @@
 Report Builder Master Copy and File Structure
-Latest Version: 7.12.8
+Latest Version: 7.13.1
 
 Note: There may be blank rows after deleting other rows, this should not be a problem  
 
-The .gitkeep files are there to ensure the folder structure is kept intact, as blank folders do not get tracked correctly.  
+The `.gitkeep` files, `.git` folder, and `.gitignore` files are there for backend purposes, they can be ignored or deleted safely.  
 They should not affect the function of the program.  
 
 `clear.exe` is a script to delete the files that are generated from the Report Builder to speed up testing.  
