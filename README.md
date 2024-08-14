@@ -1,13 +1,6 @@
-Report Builder Master Copy and File Structure
-Latest Version: 7.13.1
+# THIS BRANCH IS NOT GUARANTEED TO WORK, USE AT YOUR OWN RISK
+### Report Builder Development Branch
+### Current Version: 1.0 
 
-Note: There may be blank rows after deleting other rows, this should not be a problem  
-
-The `.gitkeep` files, `.git` folder, and `.gitignore` files are there for backend purposes, they can be ignored or deleted safely.  
-They should not affect the function of the program.  
-
-`clear.exe` is a script to delete the files that are generated from the Report Builder to speed up testing.  
-Make sure `clear_config.json` is in the current directory
-It can be run by double clicking on the `clear.exe` program  
-If any errors are encountered while running the script, rename your current working directory to `report-builder`, `sound-builder` or talk to Joseph/Dirk  
-ONLY EVER RUN THIS SCRIPT IN ITS OWN DIRECTORY, DO NOT RUN THIS ANYWHERE ELSE AS IT MAY DELETE UNRELATED FOLDERS  
+### This branch is where new versions of Report Builder are developed, currently re-writing the software from the ground up.
+### This includes redesigning the UI and the backend to build the workbooks, along with new workbooks and features.
