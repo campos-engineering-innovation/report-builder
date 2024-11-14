@@ -1,9 +1,10 @@
 {
-	"FOLDERS":[
+	"FOLDERS": [
 		"report-builder",
-		"sound-builder"
+		"sound-builder",
+		"03 - Project"
 	],
-	"INFORMATION":[
+	"INFORMATION": [
 		"DO NOT MODIFY THIS FILE, THE PROGRAM WILL NOT RUN",
 		"EITHER RENAME THE CURRENT WORKING TO ONE IN THE FOLDERS BOX, OR ASK JOSEPH/DIRK TO ADD ONE FOR YOU"
 	]
