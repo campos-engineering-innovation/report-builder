@@ -1,6 +1,6 @@
 ---
-name: General Builder Sheet
-about: Bugs that happen in the general Builder sheet, such as broken dropdowns, misspellings,
+name: Builder
+about: Bugs that happen in the Builder sheet, such as broken dropdowns, misspellings,
   etc.
 title: "[BUILDER]: "
 labels: ''
