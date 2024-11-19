@@ -1,3 +1,2 @@
 ## Report Builder Development Branch
-## Current Version: 7.18.3 
-
+## Current Version: 7.18.5
